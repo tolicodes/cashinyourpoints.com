@@ -1,0 +1,836 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width: 1300px) and (max-width: 2500px) {
+.home-nav .box-con {
+    width: 248px;
+}
+
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+.withlt p, .withrt p {font-size: 13px;}
+.infort-r p, .infolt-l p , .infort-r ul li span{font-size: 13px;}
+.infort-r ul li h4{ font-size:18px;}
+.amexPoints {background: rgba(0, 0, 0, 0) url("../img/info-1.png") no-repeat scroll center center / 100% auto;height: 194px;padding: 130px 102px 10px 15px;text-align: center;width: 200px;}
+.amexPoints h4 {font-size: 20px;}
+.amexPoints span {font-size: 13px;}
+.box-con h2 {color: #fff;font-family: "Poppins",sans-serif;font-size: 20px;line-height: 30px;}
+.formcon h3 {background: rgba(0, 0, 0, 0) url("../img/box-hov-1.png") no-repeat scroll 0 50% / 40px auto;color: #f0622e;display: inline;font-family: "Poppins",sans-serif;font-size: 28px;margin: 0;padding: 0 0 0 45px;text-align: center;}
+.buyPoints h3 {background: rgba(0, 0, 0, 0) url("../img/box-hov-2.png") no-repeat scroll 0 50% / 40px auto;color: #f0622e;display: inline;font-family: "Poppins",sans-serif;font-size: 28px;margin: 0;padding: 0 0 0 45px;text-align: center;}
+.points-con label, .checkboxarea span, .checkboxarea label{ font-size:14px;}
+.checkboxarea label input {margin: 3px 10px 0 0;width: auto;}
+.othercon input.other {width: 88%;}
+.othercon label {margin: 10px 0 0;}
+.checkboxarea {clear: both;min-height: 187px;width: auto;}
+.newsletterAreaLt {float: right;width: 60%;}
+.newsletterAreaLt h2{ font-size:32px;}
+.newsletterAreaLt p{ font-size:20px;}
+.dealWithPointsArea p{ font-size:18px;}
+.maigin-img {margin-bottom: 110px;margin-top: 110px;width: 450px;}
+.titlecon h1 {
+    float: left;
+    width: 442px;
+}
+.mainmenu .box-con {
+    width: 161px;
+}
+.mainmenu .box-con h2 {
+     font-size: 16px;
+    line-height: 22px;
+}
+.rightside ul li a{ font-size:18px;}
+.post-text p {
+ 
+    font-size: 16px;
+ }
+ .singlepostcon .post-text {
+    float: left;
+    padding: 48px 0 0;
+    width: 80%;
+}
+.home-nav .box-con {
+    width:194px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.rightSide h2{ font-size:18px;}
+.logo img {margin: 15px 0 0;width: 100%;}
+.info-lt{ width:100%; border-bottom: 3px solid #f0622e;
+border-right:none; 
+padding: 0 15px 25px; margin-bottom:25px;
+}
+.info-rt{ width:100%;}
+.info-rt h5{ text-align:center;}
+.box-con h2 {
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.points-con label, .checkboxarea span {
+    color: #000;
+    display: block;
+    float: left;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 5px;
+    text-align: left;
+    width: 100%;
+}
+.points-con input , .points-con select{
+    width: 100%;
+}
+.check-area {
+    float: left;
+    width: 100%;
+}
+.checkboxarea label{ font-size:15px;}
+.checkboxarea label input {
+    
+    margin: 2px 10px 0 0;
+    width: auto;
+}
+.othercon input.other {
+    float: right;
+    margin: 0;
+    width: 92%;
+}
+.othercon label input {
+    margin: 10px 10px 0 0;
+    width: auto;
+}
+.formcon h3 {
+    background: rgba(0, 0, 0, 0) url("../img/box-hov-1.png") no-repeat scroll 0 50% / 36px auto;
+    color: #f0622e;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    text-align: center;
+}
+
+.buyPoints h3 {
+    background: rgba(0, 0, 0, 0) url("../img/box-hov-2.png") no-repeat scroll 0 50% / 36px auto;
+    color: #f0622e;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    text-align: center;
+}
+
+.newsletterArea img{ width:200px;}
+.newsletterAreaLt h2 {
+  
+    font-size: 26px;
+    
+}
+.newsletterAreaLt p{ font-size:16px;}
+.dealWithPoints h3 {
+    background: rgba(0, 0, 0, 0) url("../img/SoWhattheDeal1.png") no-repeat scroll 0 50% / 40px auto;
+    color: #fff;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 0 0 50px;
+    text-align: center;
+}
+.whyUs h3 {
+    background: rgba(0, 0, 0, 0) url("../img/whyus.png") no-repeat scroll 0 50% / 40px auto;
+    color: #fff;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 0 0 50px;
+    text-align: center;
+}
+
+.dealWithPointsArea img{ width:300px;}
+.whyUsArea ul li img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ourcompany h3{ font-size:24px;}
+.ourcompanyarea p{ font-size:16px;}
+.ourcompanycontetn h2{ font-size:20px;}
+.mainmenu .box-con {
+    padding: 10px 0;
+    width: 250px;
+}
+.leftSide{ width:100%;}
+.titlecon h1 {
+    float: left;
+    width: 464px;
+}
+.blog-content-area .rightSide{ width:100%;}
+.singlepostcon .post-text {
+    float: left;
+    padding: 48px 0 0;
+    width: 100%;
+}
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+.rightSide h2 {
+    font-size: 18px;
+    text-align: center;
+}
+.logo a{ display:block;}
+.logo img {
+    display: block;
+    margin: 15px auto 0;
+    width: 300px;
+}
+.info-lt{ width:100%; border-bottom: 3px solid #f0622e;
+overflow:hidden;
+border-right:none; 
+padding: 0 15px 25px; margin-bottom:25px;
+}
+.info-rt{ width:100%;}
+.info-rt h5{ text-align:center;}
+.box-con h2 {
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.points-con label, .checkboxarea span {
+    color: #000;
+    display: block;
+    float: left;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 5px;
+    text-align: left;
+    width: 100%;
+}
+.points-con input, .points-con select {
+    width: 100%;
+}
+.check-area {
+    float: left;
+    width: 100%;
+}
+
+.infolt-l {
+    float: left;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+.infort-r {
+    float: right;
+    width: 100%;
+}
+.withoutlt, .withoutrt, .withlt, .withrt {
+    float: left;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+.withlt img, .withrt img {
+    float: none;
+    margin: 0 auto;
+}
+.box-con {
+    float: left;
+    margin: 0 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.formcon{ margin-bottom:35px;}
+.withoutlt img, .withoutrt img {
+    float: none;
+    margin: 0 auto;
+}
+.checkboxarea label{ font-size:15px;}
+.checkboxarea label input {
+    
+    margin: 2px 10px 0 0;
+    width: auto;
+}
+.othercon input.other {
+    float: right;
+    margin: 7px 0 0;
+    width: 94%;
+}
+.othercon label input {
+    margin: 10px 10px 0 0;
+    width: auto;
+}
+.formcon h3 {
+    background: rgba(0, 0, 0, 0) url("../img/box-hov-1.png") no-repeat scroll 0 50% / 36px auto;
+    color: #f0622e;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    text-align: center;
+}
+
+.buyPoints h3 {
+    background: rgba(0, 0, 0, 0) url("../img/box-hov-2.png") no-repeat scroll 0 50% / 36px auto;
+    color: #f0622e;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    text-align: center;
+}
+
+.newsletterArea img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 200px;
+}
+.newsletterAreaLt h2 {
+  
+    font-size: 26px;
+    
+}
+.newsletterAreaLt {
+    float: right;
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+}
+.newsletterAreaLt p{ font-size:16px;}
+.dealWithPoints h3 {
+    background: rgba(0, 0, 0, 0) url("../img/SoWhattheDeal1.png") no-repeat scroll 0 50% / 40px auto;
+    color: #fff;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 0 0 50px;
+    text-align: center;
+}
+.whyUs h3 {
+    background: rgba(0, 0, 0, 0) url("../img/whyus.png") no-repeat scroll 0 50% / 40px auto;
+    color: #fff;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 0 0 50px;
+    text-align: center;
+}
+
+.dealWithPointsArea img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 300px;
+}
+.whyUsArea ul li {
+    display: block;
+    float: left;
+    list-style: outside none none;
+    width: 100%;
+	margin:0 0 20px;
+}
+.whyUsArea ul li img {
+    display: block;
+    margin: 0 auto;
+    width:auto;
+}
+.ourcompanycontetn .alignleft {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.ourcompany h3{ font-size:24px;}
+.ourcompanyarea p{ font-size:14px;}
+.ourcompanycontetn h2{ font-size:20px;}
+
+.mainmenu .box-con {
+    text-align: center;
+    width: 33.33%;
+}
+.mainmenu .box-con .icon-con {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.mainmenu .box-con h2{ text-align:center;}
+.home {
+    background: rgba(0, 0, 0, 0) url("../img/home.png") no-repeat scroll 0 50%;
+    display: block;
+    margin: 0 auto !important;
+    padding: 10px 0 0 70px !important;
+    width: 130px;
+}
+.mainmenu {
+    background: #004573 none repeat scroll 0 0;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0 0;
+    width: 100%;
+}
+.date-con {
+    background: #004573 none repeat scroll 0 0;
+    float: left;
+    padding: 15px 15px 5px;
+    text-align: left;
+    width: 100%;
+}
+.date-con h3 {
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+.morelink {
+    float: right;
+    text-align: left;
+    width: 100%;
+	padding:0 15px
+}
+.morelink img {
+    float: none;
+}
+.morelink a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.titlecon h1 {
+    float: left;
+    
+    width: 100%;
+}
+.post-text {
+    padding: 15px 0;
+}
+.cat-con {
+    clear: both;
+    margin: 0 0 30px;
+    overflow: hidden;
+    width: 100%;
+}
+.singlepostcon .post-text {
+    float: left;
+    padding: 48px 0 0;
+    width: 100%;
+}
+.icon-con {
+    float: none;
+    margin: 0 auto;
+    width: 100px;
+}
+.othercon label {
+    display: block;
+    margin: 10px 0 0;
+}
+
+}
+
+
+
+
+
+
+
+@media (min-width: 290px) and (max-width: 480px) {
+.rightSide h2 {
+    font-size: 18px;
+    text-align: center;
+}
+.logo a{ display:block;}
+.logo img {
+    display: block;
+    margin: 15px auto 0;
+    width: 195px;
+}
+.infort-r ul li h4 {
+     font-size: 24px;
+}
+.title-without, .title-right{ font-size:16px;}
+.info-lt{ width:100%; border-bottom: 3px solid #f0622e;
+overflow:hidden;
+border-right:none; 
+padding: 0 15px 25px; margin-bottom:25px;
+}
+
+.title-without {
+ 
+    width: 295px;
+}
+.title-right {
+   
+    width: 264px;
+}
+.formcon {
+ 
+    padding: 25px 10px;
+    
+}
+.info-rt{ width:100%;}
+.info-rt h5{ text-align:center;}
+.box-con h2 {
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+.points-con label, .checkboxarea span {
+    color: #000;
+    display: block;
+    float: left;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 5px;
+    text-align: left;
+    width: 100%;
+}
+.points-con input, .points-con select {
+    width: 100%;
+}
+.check-area {
+    float: left;
+    width: 100%;
+}
+
+.infolt-l {
+    float: left;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+.infort-r {
+    float: right;
+    width: 100%;
+}
+.withoutlt, .withoutrt, .withlt, .withrt {
+    float: left;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+.withlt img, .withrt img {
+    float: none;
+    margin: 0 auto;
+}
+.box-con {
+    float: left;
+    margin: 0 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.formcon{ margin-bottom:35px;}
+.withoutlt img, .withoutrt img {
+    float: none;
+    margin: 0 auto;
+}
+.checkboxarea label{ font-size:15px;}
+.checkboxarea label input {
+    
+    margin: 2px 10px 0 0;
+    width: auto;
+}
+.othercon input.other {
+    float: right;
+    margin: 7px 0 0;
+    width: 91;
+}
+.othercon label {
+    display: block;
+    margin: 10px 0 0;
+}
+.othercon label input {
+    margin: 10px 10px 0 0;
+    width: auto;
+}
+.formcon h3 {
+    background: rgba(0, 0, 0, 0) url("../img/box-hov-1.png") no-repeat scroll 0 50% / 36px auto;
+    color: #f0622e;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    text-align: center;
+}
+
+.buyPoints h3 {
+    background: rgba(0, 0, 0, 0) url("../img/box-hov-2.png") no-repeat scroll 0 50% / 36px auto;
+    color: #f0622e;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    text-align: center;
+}
+
+.newsletterArea img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 200px;
+}
+.newsletterAreaLt h2 {
+  
+    font-size: 26px;
+    
+}
+
+.newslettercon input.subscribe {
+   
+    font-size: 16px;
+    
+    width: 38%;
+}
+.content-con input{ font-size:14px;}
+.newslettercon input {
+     
+    font-size: 14px;
+   
+    width: 58%;
+}
+.newsletterAreaLt {
+    float: right;
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+}
+.newsletterAreaLt p{ font-size:16px;}
+.dealWithPoints h3 {
+    background: rgba(0, 0, 0, 0) url("../img/SoWhattheDeal1.png") no-repeat scroll 0 50% / 40px auto;
+    color: #fff;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 0 0 50px;
+    text-align: center;
+}
+.whyUs h3 {
+    background: rgba(0, 0, 0, 0) url("../img/whyus.png") no-repeat scroll 0 50% / 40px auto;
+    color: #fff;
+    display: inline;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 0 0 50px;
+    text-align: center;
+}
+
+.dealWithPointsArea img {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 240px;
+}
+.whyUsArea ul li {
+    display: block;
+    float: left;
+    list-style: outside none none;
+    width: 100%;
+	margin:0 0 20px;
+}
+.whyUsArea ul li img {
+    display: block;
+    margin: 0 auto;
+    width:auto;
+}
+.ourcompanycontetn .alignleft {
+    display: block;
+    float: none;
+    margin: 0 auto 25px;
+}
+.ourcompanycontetn {
+    overflow: hidden;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+.dealWithPointsArea p {
+    color: #000;
+    font-family: "Muli",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0 20px;
+}
+.whyUsArea p {
+    color: #000;
+    font-family: "Muli",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+
+.ourcompany h3{ font-size:24px;}
+.ourcompanyarea p{ font-size:16px;}
+.ourcompanycontetn h2{ font-size:20px;}
+
+
+
+.mainmenu .box-con {
+    margin: 0 0 25px;
+    text-align: center;
+    width: 100%;
+}
+.mainmenu .box-con .icon-con {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.mainmenu .box-con h2{ text-align:center;}
+.home {
+    background: rgba(0, 0, 0, 0) url("../img/home.png") no-repeat scroll 0 50%;
+    display: block;
+    margin: 0 auto !important;
+    padding: 10px 0 0 70px !important;
+    width: 130px;
+}
+.mainmenu {
+    background: #004573 none repeat scroll 0 0;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0 0;
+    width: 100%;
+}
+.date-con {
+    background: #004573 none repeat scroll 0 0;
+    float: left;
+    padding: 15px 15px 5px;
+    text-align: left;
+    width: 100%;
+}
+.date-con h3 {
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+.morelink {
+    float: right;
+    text-align: left;
+    width: 100%;
+	padding:0 15px
+}
+.titlecon h1 a {
+    color: #fff;
+    display: block;
+    font-size: 28px;
+}
+.post-text img {
+    float: left;
+    margin: 0 auto 10px;
+    width: 100%;
+}
+.morelink img {
+    float: none;
+}
+.morelink a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.titlecon h1 {
+    float: left;
+    
+    width: 100%;
+}
+.post-text {
+    padding: 15px 0;
+}
+.cat-con {
+    clear: both;
+    margin: 0 0 30px;
+    overflow: hidden;
+    width: 100%;
+}
+.singlepostcon .post-text {
+    float: left;
+    padding: 48px 0 0;
+    width: 100%;
+}
+.icon-con {
+    float: none;
+    margin: 0 auto;
+    width: 100px;
+}
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .offcanvas__trigger--open {
+    position: absolute;
+    right: 15px;
+    top: 55px;
+}
+ }
+ 
+@media (min-width: 290px) and (max-width: 480px) {
+  .offcanvas__trigger--open {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+ }
+@media (min-width: 290px) and (max-width: 767px) {
+.mobile-nav-btn{ display:block; text-align:right; position:relative; z-index:9999999; padding:0 15px 0 0}
+.mobile-nav-btn button{ margin:10px 2px 0; padding:0; z-index:99999999;}
+.boxarea{ display:none;}
+ 
+header{ overflow:inherit;}
+
+.infort-r ul li { display:block; float:left; list-style:none; width:50%; text-align:center;}
+.infort-r, .infolt-l{ text-align:center;}
+.amexPoints{ margin:0 auto;}
+}
+
+#my-navigation {
+    background: #004573 none repeat scroll 0 0;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0 20px;
+    
+}
+#my-navigation .box-con{ width:100%; clear:both; padding:10px; margin:0;}
+#my-navigation .box-con .icon-con{ float:left; clear:none; margin:0 20px 0 0; width:auto;}
+#my-navigation .box-con .icon-con img{ width:40px; height:auto;}
+#my-navigation .box-con h2 {
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 10px  0 0 ;
+    padding: 0;
+    text-align: left;
+}
+#my-navigation ul{ margin:0; padding:0;}

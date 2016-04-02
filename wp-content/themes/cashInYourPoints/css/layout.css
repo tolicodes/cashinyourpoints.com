@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document 
+
+font-family: 'Muli', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+header{ width:100%; clear:both; overflow:hidden; padding:10px 0; background:#fff; border-bottom:3px solid #004573 ;}
+.logo img{ width:100%; margin:5px 0 0;}
+.rightSide{ text-align:right; padding:15px 15px 0;}
+.rightSide h2{ margin:0 0 10px; padding:0;font-family: 'Poppins', sans-serif; font-weight:400; font-size:24px; color:#df622e; }
+.rightSide h2 span{ color:#004573;}
+
+.infographics-con{ width:100%; padding:40px 0; background:#e2fbff;}
+
+.amexPoints{ background:url(../img/info-1.png) no-repeat center center; width:233px; height:194px; text-align:center; padding:130px 102px 10px 15px;}
+.amexPoints h4{ color:#ff6325; font-size:30px;font-family: 'Poppins', sans-serif; font-weight:700; margin:0; padding:0;}
+.amexPoints span{font-family: 'Muli', sans-serif; color:#000; font-size:16px;}
+
+.info-lt{border-right:3px solid #F0622E}
+.infolt-l{ float:left; width:44%; padding:0 15px 0 0; }
+.infolt-l p{font-family: 'Muli', sans-serif; color:#000; font-size:15px; margin: 10px 0; padding:0;}
+
+.infort-r{ float:right; width:52%}
+.infort-r img{ margin:0 auto; display:block;}
+.infort-r p{font-family: 'Muli', sans-serif; color:#000; font-size:15px; margin: 10px 0; padding:0;}
+.infort-r ul{ margin:40px 0 0; padding:0; width:100%;}
+.infort-r ul li { display:block; float:left; list-style:none; width:50%;}
+
+.infort-r ul li h4{ color:#ff6325; font-size:25px;font-family: 'Poppins', sans-serif; font-weight:700; margin:0; padding:0;}
+.infort-r ul li span{font-family: 'Muli', sans-serif; color:#000; font-size:15px;}
+
+.infort-r ul li h4 .smiall-text{ font-size:20px;color:#ff6325; }
+.title-without {background: rgba(0, 0, 0, 0) url("../img/close.png") no-repeat scroll 0 0;color: #f0622e;display: block;font-family: "Poppins",sans-serif;font-size:28px;font-weight: 500;margin: 0 auto 20px;padding: 2px 0 0 46px;width: 368px;}
+.title-right {background: rgba(0, 0, 0, 0) url("../img/right.png") no-repeat scroll 0 0;color: #049e6c;display: block;font-family: "Poppins",sans-serif;font-size:28px;margin:  0 auto 20px;padding: 2px 0 0 46px;width: 305px;}
+.withoutcon{ width:100%; clear:both; overflow:hidden; margin:0 0 25px; padding:0 20px;}
+.withoutlt{ float:left; width:50%; }
+.withoutrt{ float:left; width:50%;}
+.withoutlt img, .withoutrt img{ float:left; margin:0 10px 0 0;}
+.withoutlt p, .withoutrt p{font-family: 'Muli', sans-serif; color:#000; font-size:15px; margin: 0 0; padding:0;}
+.withoutlt span, .withoutrt span{ color:#ff6325; font-size:25px;font-family: 'Poppins', sans-serif; font-weight:500; margin:0; padding:0;}
+.withoutrt p{ margin:10px 0 0;}
+
+.withcon{ width:100%; clear:both; overflow:hidden; margin:0 0 25px; padding:0 20px;}
+.withlt{ float:left; width:50%; }
+.withrt{ float:left; width:50%;}
+.withlt img, .withrt img{ float:left; margin:0 10px 15px 0;}
+
+.withlt p, .withrt p{font-family: 'Muli', sans-serif; color:#000; font-size:15px; margin: 0 0; padding:0;}
+.withlt span, .withrt span{ color:#ff6325; font-size:25px;font-family: 'Poppins', sans-serif; font-weight:500; margin:0; padding:0; line-height:34px;}
+
+.withrt span.colorgreen, .withlt span.colorgreen{ color:#049e6c; font-size:15px; line-height:22px;}
+.info-rt h5 { font-size:12px; color:#049e6c;font-family: 'Poppins', sans-serif;  padding:0 20px; text-align:center;}
+
+
+.boxarea{ width:100%; clear:both; overflow:hidden; padding:40px 0 20px; background:#004573;}
+.box-con{ width:20%; float:left; text-align:center;}
+.icon-con{ text-align:center;}
+.icon-con img.hov{ display:none;}
+.box-con h2{ font-size:24px;font-family: "Poppins",sans-serif;color:#fff; line-height:36px;}
+.box-con h2 a{ color:#fff; text-decoration:none; font-weight:400;}
+
+.box-con:hover  img.hov { display:block; margin:0 auto;}
+.box-con:hover  img.nor { display:none;}
+.box-con:hover h2 a{ color:#fff; text-decoration:none; font-weight:400; color:#f0622e;}
+.more-link{ display:none;}
+
+.from-area{ background: url(../img/Plane.png) no-repeat center center #8eb6e2; background-size:cover; width:100%; clear:both; overflow:hidden; padding:50px 0;}
+.formcon{ background:url(../img/box-bg.png) repeat; width:100%; min-height:450px; border-radius:15px; text-align:center; padding:20px; overflow:hidden;}
+.formcon h3 {background: rgba(0, 0, 0, 0) url("../img/box-hov-1.png") no-repeat scroll 0 50% / 55px auto;color: #f0622e;display: inline;font-family: "Poppins",sans-serif;font-size: 41px;margin: 0;padding: 0 0 0 70px;text-align: center;}
+.buyPoints h3 {background: rgba(0, 0, 0, 0) url("../img/box-hov-2.png") no-repeat scroll 0 50% / 55px auto;color: #f0622e;display: inline;font-family: "Poppins",sans-serif;font-size: 41px;margin: 0;padding: 0 0 0 70px;text-align: center;}
+.content-con {margin: 0 auto;overflow: hidden;padding: 27px 0 0;width: 95%;}
+.points-con{ padding:15px 0; overflow:hidden;}
+.content-con input{ width:100%; height:40px; border-radius:5px; border:none; background:#fff; padding:0 10px;font-family: "Poppins",sans-serif; font-size:18px; margin:0 0 12px;}
+.points-con label{ display:block; float:left; font-size:20px; color:#000;font-family: "Poppins",sans-serif; font-weight:400; width:35%; padding:0 15px 0 0; text-align:right;}
+.points-con input{ width:65%;}
+.points-con select{width:65%; height:40px; border-radius:5px; border:none; background:#fff; padding:0 10px;font-family: "Poppins",sans-serif; font-size:18px; margin:0 0 12px;}
+
+.checkboxarea {clear: both;min-height: 230px;width: auto;}
+.checkboxarea  span{ display:block; float:left; font-size:20px; color:#000;font-family: "Poppins",sans-serif; font-weight:400;padding:0 15px 0 0; width:35%; text-align:right;}
+
+.check-area{ width:65%; float:left;}
+.checkboxarea  label{ display:block; float:left; font-size:20px; color:#000;font-family: "Poppins",sans-serif; font-weight:400; width:100%; text-align:left;}
+.checkboxarea  label input{ display:block; float:left; width:auto; height:auto; margin:10px 10px  0 0;}
+
+.othercon {
+    clear: both;
+    float: left;
+    margin: 0 0 20px;
+    overflow: hidden;
+    width: 100%;
+}.othercon label{ display:block; float:left; clear:none; margin:0; padding:0; width:auto;}   
+.othercon input.other {float: left;margin: 0 0 0 4px;width: 90%;} 
+
+.content-con input.submit{ display:block; float:right; width:auto; height:auto; background:#f0622e; font-size:20px; color:#fff; padding:0 20px;}
+
+
+.newsletterArea{background: #004573 none repeat scroll 0 0;clear: both;overflow: hidden;padding: 40px 0 20px;width: 100%;}
+.alignright{ float:right; margin:0 0 0 35px;}
+.alignleft{ float:left; margin:0 35px 0 0 ;}
+
+.newsletterAreaLt{ float:right; width:65%;}
+.newsletterAreaLt h2{ font-size:42px; color:#f0622e; font-weight:500;font-family: 'Muli', sans-serif; margin:0 0 25px}
+.newsletterAreaLt p{ font-size:22px; color:#fff; font-weight:500;font-family: 'Muli', sans-serif; margin:0 0 30px;}
+
+.newslettercon{ width:100%; padding:25px 0; overflow:hidden; }
+.newslettercon input{ width:65%; height:40px; border-radius:5px; border:none; background:#fff; padding:0 10px;font-family: "Poppins",sans-serif; font-size:18px; margin:0 0 12px;}
+.newslettercon input.subscribe{ width:30%; height:40px; border-radius:5px; border:none; background:#fff;  font-family: "Poppins",sans-serif;   margin:0 0 12px; float:
+right;  background:#f0622e; font-size:22px; color:#fff; padding:0 20px;}
+
+
+
+.orangearea{background: #f0622e  none repeat scroll 0 0;clear: both;overflow: hidden;padding: 20px 0 20px;width: 100%; text-align:center;}
+.dealWithPoints h3 {background: rgba(0, 0, 0, 0) url("../img/SoWhattheDeal1.png") no-repeat scroll 0 50% / 55px auto;color: #fff;display: inline;font-family: "Poppins",sans-serif;font-size: 36px;margin: 0;padding: 5px 0 0 70px;text-align: center;font-weight:500}
+.whyUs h3 {background: rgba(0, 0, 0, 0) url("../img/whyus.png") no-repeat scroll 0 50% / 55px auto;color: #fff;display: inline;font-family: "Poppins",sans-serif;font-size: 36px;margin: 0;padding: 5px 0 0 70px;text-align: center;font-weight:500}
+.dealWithPointsArea{background: #fff  none repeat scroll 0 0;clear: both;overflow: hidden;padding: 40px 0 40px;width: 100%; text-align:left;}
+.dealWithPointsArea p {color: #000;font-family: "Muli",sans-serif;font-size: 20px;font-weight: 500;margin: 0 0 20px;}
+.maigin-img{ margin-top:55px; margin-bottom:55px;}
+.whyUsArea{background: #fff  none repeat scroll 0 0;clear: both;overflow: hidden;padding: 50px 0 30px;width: 100%; text-align:left;}
+
+.whyUsArea p {color: #000;font-family: "Muli",sans-serif;font-size: 20px;font-weight: 500;margin: 0 0 20px;}
+.whyUsArea ul{ margin:25px 0; display:block; overflow:hidden; padding:0; width:100%; text-align:center;}
+.whyUsArea ul li{ display:block; float:left; width:33.33%; list-style:none;}
+.whyUsArea ul li img{ display:block; margin:0 auto;}
+.whyUsArea ul li a{ font-size:18px; color:#026689;}
+
+.bluearea {background: #004573   none repeat scroll 0 0;clear: both;overflow: hidden;padding: 20px 0 20px;width: 100%; text-align:center;}
+.ourcompany h3 {color: #fff;display: inline;font-family: "Poppins",sans-serif;font-size: 36px;font-weight: 500;margin: 0;padding: 5px 0 5px 0;text-align: center;}
+
+
+.ourcompanyarea{ width:100%; clear:both; overflow:hidden; padding:50px 0; background:#fff;font-family: "Poppins",sans-serif; font-weight:400;}
+.ourcompanyarea h2 a{ color:#026689;}
+.ourcompanyarea p {color: #000;font-family: "Muli",sans-serif;font-size: 20px;font-weight: 500;margin: 0 0 20px;}
+.ourcompanycontetn{ padding-bottom:15px; padding-top:15px; overflow:hidden;}
+
+
+footer{ width:100%; clear:both; overflow:hidden; padding:30px 0; background:#fff; border-top:3px solid #004573 ;}
+
+.home{ background:url(../img/home.png) no-repeat 0 50%; padding:10px 0 0 70px!important}
+
+.mainmenu .box-con {
+    width: 206px;
+}
+.mainmenu .box-con h2 {
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.mainmenu .box-con .icon-con {
+    float: left;
+    margin: 0 15px 0 0;
+    text-align: center;
+    width: auto;
+}
+.mainmenu .box-con .icon-con img{ width:40px; height:auto;}
+.single-line{ padding-top:10px!important}
+
+.mainmenu {
+    background: #004573 none repeat scroll 0 0;
+    clear: both;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 100%;
+}
+ 
+.cat-con{ width:95%; clear:both; overflow:hidden; margin:0 0 30px;}
+.titlecon{ width:100%; clear:both; overflow:hidden; background:#df622e;}
+.date-con{ width:100px; background:#004573; text-align:center; padding:20px 0 5px; float:left;}
+.date-con h3{ margin:0; padding:0; color:#fff; font-size:20px;font-family: "Poppins",sans-serif; font-weight:500; line-height:28px;}
+.date-con h3 span{ font-size:20px; display:block; clear:both;}
+
+.date-con h3::first-line{font-size:40px; display:block; clear:both;}
+.titlecon h1 {
+    float: left;
+    margin: 13px 0;
+    width: 500px;
+}
+.titlecon h1 a{ color:#fff; font-size:42px; font-weight:bold; padding:5px 15px; display:block; text-decoration:none;}
+
+.morelink{ width:120px; float:right;}
+.morelink a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0 0 0;
+}
+.morelink span{ display:inline-block; padding:5px 0 0 10px;}
+.morelink img{ float:left;} 
+.post-text{ padding:20px 0 0 100px}
+.post-text img{ float:left; margin:0 20px 0 0;}
+.post-text  p{ font-size:18px;font-family: "Poppins",sans-serif; color:#000; margin:0 0 15px; padding:0; }
+
+.readmore{ color:#df622e;font-size:20px;font-family: "Poppins",sans-serif; text-decoration:none;}
+
+.blog-content-area{ width:100%; padding:35px 0;}
+
+.rightside{}
+.rightside ul{ margin:0; padding:0; width:100%;}
+.rightside ul li{ display:block; list-style:none; margin:0; padding:0;}
+.rightside ul li a{ display:block; text-decoration:none; font-size:20px;font-family: "Poppins",sans-serif; color:#004573; text-align:left; border-bottom:4px solid #df622e; padding:10px 0;}
+.rightside ul li:hover a{ color:#df622e;}
+.right-side-add{ width:100%; background:#e2e2e2; text-align:center; margin:35px auto;}
+
+.postcon  h1{ float:left; width:500px;}
+.postcon  .titlecon{ width:100%; clear:both; overflow:hidden; background:none;}
+
+.postcon  .titlecon h1  { font-family: "Poppins",sans-serif;color:#df622e; font-size:52px; font-weight:bold; padding:5px 15px; display:block; text-decoration:none; text-transform:uppercase;}
+.singlepostcon .post-text {
+    float: left;
+    padding: 48px 0 0;
+    width: 85%;
+}
+.singlepostcon  .icon-con {
+    float: left;
+    margin: 0 25px 0 0;
+    width: 100px;
+}.icon-con .morelink {
+    float: right;
+    width: 100%;
+}
+.icon-con .morelink a {font-size:20px;font-family: "Poppins",sans-serif; color:#004573; margin:0 0 20px; padding:0}
+
+.post-img{ width:100%; clear:both; text-align:center;  background: #e2e2e2 none repeat scroll 0 0; padding:55px 0; margin:0 0 25px;}
+
+.post-text .post-img img {
+    float: none;
+    margin: 0 20px 0 0;
+}
+
+
+.mobile-nav-btn{ display:none;}
+
+.offcanvas__trigger--open{ background:}
+
+.scrollup{
+			width:40px;
+			height:40px;			
+			text-indent:-9999px;
+			opacity:0.3;
+			position:fixed;
+			bottom:50px;
+			right:40px;
+			display:none;			
+			background: url('../img/icon_top.png') no-repeat;
+		}
+	
