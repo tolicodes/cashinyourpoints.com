@@ -1,0 +1,15 @@
+.message_loading{
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.vertical_success_message {
+  height: 515px;
+  line-height: 515px;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
+.formcon {
+    min-height: 710px;
+}

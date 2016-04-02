@@ -119,32 +119,36 @@ get_header(); ?>
                 	<div class="formcon">
                     	<h3>Cash In Your Points</h3>
                         
-                        <div class="content-con">
-                        	<input name="" type="text" placeholder="First Name">
-                        	<input name="" type="text" placeholder="Last Name">
-                        	<input name="" type="text" placeholder="Email">
-                        	<input name="" type="text" placeholder="Phone">
+                        <div class="content-con" id="content_container">
+
+                        <form id="cashinform" name="cashinform" action="save_cash_form_to_mailchimp.php" method="post" onsubmit="return validateForm()" >
+                        	<input required="required" name="first_name" type="text" placeholder="First Name">
+                        	<input required="required" name="last_name" type="text" placeholder="Last Name">
+                        	<input required="required" name="email" type="email" placeholder="Email">
+                        	<input required="required" name="phone" type="text" placeholder="Phone">
                         	 <div class="points-con">
-                             	<label>How Many Points Are You Selling?</label><input name="" type="text" >
+                             	<label>How Many Points Are You Selling?</label><input name="how_many_point_selling" required="required" type="text" >
                              </div>
                              <div class="checkboxarea">
                              	<span>Which Credit Card Program :</span>
                                 
                                 <div class="check-area">
-                                	<label><input name="" type="radio" value=""> American Express</label>
-                                    <label><input name="" type="radio" value="">  Chase</label>
-                                    <label><input name="" type="radio" value="">  Hilton Honors</label>
-                                    <label><input name="" type="radio" value=""> United Airlines</label>
-                                    <label><input name="" type="radio" value="">  Delta Airlines</label>
+                                	<label> <input  name="which_program" type="radio" value="American Express"> American Express</label>
+                                    <label><input name="which_program" type="radio" value="Chase">  Chase</label>
+                                    <label><input name="which_program" type="radio" value="Hilton Honors">  Hilton Honors</label>
+                                    <label><input name="which_program" type="radio" value="United Airlines"> United Airlines</label>
+                                    <label><input name="which_program" type="radio" value="Delta Airlines">  Delta Airlines</label>
                                     <div class="othercon">
-                                    <label><input name="" type="radio" value=""> </label><input name="" type="text" placeholder="Other" class="other" >
+                                    <label><input name="which_program" type="radio" value="Other"> </label><input name="other_which_program" id="other_which_program" type="text" placeholder="Other" class="other" >
                                     </div>
                                 </div>
                                 
                                 
                                
                              </div>
-                              <input name="Submit" type="submit" value="Submit" class="submit">
+                             <div id="hidden_loading" class="message_loading" style="display:none;">Saving...</div>
+                             <div id="submit_container"><input name="Submit" type="submit" value="Submit" class="submit"></div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -152,34 +156,46 @@ get_header(); ?>
                 	<div class="formcon buyPoints">
                     	<h3>Buy Points / Flights</h3>
                         
-                        <div class="content-con">
-                        	<input name="" type="text" placeholder="First Name">
-                        	<input name="" type="text" placeholder="Last Name">
-                        	<input name="" type="text" placeholder="Email">
-                        	<input name="" type="text" placeholder="Phone">
-                        	 <div class="points-con">
+                         <div class="content-con" id="content_container2">
+
+                        <form id="flightform" name="flightform" action="save_flight_form_to_mailchimp.php" method="post" onsubmit="return validateFormFlight()" >
+                      
+                          <input required="required" name="first_name" type="text" placeholder="First Name">
+                          <input required="required" name="last_name" type="text" placeholder="Last Name">
+                          <input required="required" name="email" type="email" placeholder="Email">
+                          <input required="required" name="phone" type="text" placeholder="Phone">
+                      
+                          	 <div class="points-con">
                              	<label>What's Your Favorite Airline:</label>
-                                <select name="">
-                                	<option>United Airlines</option>
-                                    <option>USA</option>
+                                <select name="favorite_airline">
+                                	<option value="United Airlines">United Airlines</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Delta Airlines">Delta Airlines</option>
+                                    <option value="American Airlines">American Airlines</option>
+                                    <option value="Air Canada">Air Canada</option>
+                                    <option value="Emirates">Emirates</option>
+                                    <option value="US Air">US Air</option>
+                                    <option value="Other">Other</option>
                                 </select>
                              </div>
                              <div class="checkboxarea">
                              	<span>How Often Do You Fly?</span>
                                 
                                 <div class="check-area">
-                                	<label><input name="" type="radio" value=""> Weekly</label>
-                                    <label><input name="" type="radio" value="">  Monthly</label>
-                                    <label><input name="" type="radio" value="">  Every 3-4 months</label>
-                                    <label><input name="" type="radio" value=""> On Holidays</label>
-                                    <label><input name="" type="radio" value="">  Once in a while</label>
+                                	<label> <input checked="checked" name="how_often_fly" type="radio" value="Weekly"> Weekly</label>
+                                    <label><input name="how_often_fly" type="radio" value="Monthly">  Monthly</label>
+                                    <label><input name="how_often_fly" type="radio" value="Every 3-4 months">  Every 3-4 months</label>
+                                    <label><input name="how_often_fly" type="radio" value="On Holidays"> On Holidays</label>
+                                    <label><input name="how_often_fly" type="radio" value="Once in a while">  Once in a while</label>
                                      
                                 </div>
                                 
                                 
                               
                              </div>
-                             <input name="Submit" type="submit" value="Submit" class="submit">
+                             <div id="hidden_loading_2"  class="message_loading"   style="display:none;">Saving...</div>
+                             <div id="submit_container_2"><input name="Submit" type="submit" value="Submit" class="submit"></div>
+                             </form>
                         </div>
                     </div>
                 </div>
@@ -198,7 +214,11 @@ get_header(); ?>
                     <p>Interested in learning more? Not ready to cash in your points just yet? You can join our educational newsletter!</p>
                     <p>Every week we write a new article that explains more about how to use your points wisely (and other cool financial tips).</p>
                     <div class="newslettercon">
-                    	<input name="" type="text" placeholder="your e-mail here "><input name="" type="button" value="Subscribe" class="subscribe">
+                      <form id="newsletterform" name="newsletterform" action="save_newsletter_mailchimp.php" method="post" onsubmit="return validateNewsletter()" >
+                      	<input id="newsletter_email" required="required" name="email" type="email" placeholder="your e-mail here ">
+                        <span id="submit_container_3"><input name="submit" type="submit" value="Subscribe" id="newsletter_subscribe" class="subscribe"></span>
+                        <span id="hidden_loading_3" class="message_loading"   style="display:none;">Saving...</span> 
+                      </form>
                     </div>
                     </div>
                 </div>
@@ -302,13 +322,5 @@ and list some of the big ones here:</p>
        </section>
 
 <?php get_footer(); ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-</head>
 
-<body>
-</body>
-</html>
+ 
