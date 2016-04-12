@@ -40,7 +40,7 @@
 }
 .rightside ul li a{ font-size:18px;}
 .post-text p {
- 
+
     font-size: 16px;
  }
  .singlepostcon .post-text {
@@ -57,7 +57,7 @@
 .rightSide h2{ font-size:18px;}
 .logo img {margin: 15px 0 0;width: 100%;}
 .info-lt{ width:100%; border-bottom: 3px solid #f0622e;
-border-right:none; 
+border-right:none;
 padding: 0 15px 25px; margin-bottom:25px;
 }
 .info-rt{ width:100%;}
@@ -88,7 +88,7 @@ padding: 0 15px 25px; margin-bottom:25px;
 }
 .checkboxarea label{ font-size:15px;}
 .checkboxarea label input {
-    
+
     margin: 2px 10px 0 0;
     width: auto;
 }
@@ -125,9 +125,9 @@ padding: 0 15px 25px; margin-bottom:25px;
 
 .newsletterArea img{ width:200px;}
 .newsletterAreaLt h2 {
-  
+
     font-size: 26px;
-    
+
 }
 .newsletterAreaLt p{ font-size:16px;}
 .dealWithPoints h3 {
@@ -195,7 +195,7 @@ padding: 0 15px 25px; margin-bottom:25px;
 }
 .info-lt{ width:100%; border-bottom: 3px solid #f0622e;
 overflow:hidden;
-border-right:none; 
+border-right:none;
 padding: 0 15px 25px; margin-bottom:25px;
 }
 .info-rt{ width:100%;}
@@ -257,7 +257,7 @@ padding: 0 15px 25px; margin-bottom:25px;
 }
 .checkboxarea label{ font-size:15px;}
 .checkboxarea label input {
-    
+
     margin: 2px 10px 0 0;
     width: auto;
 }
@@ -299,9 +299,9 @@ padding: 0 15px 25px; margin-bottom:25px;
     width: 200px;
 }
 .newsletterAreaLt h2 {
-  
+
     font-size: 26px;
-    
+
 }
 .newsletterAreaLt {
     float: right;
@@ -418,7 +418,7 @@ padding: 0 15px 25px; margin-bottom:25px;
 }
 .titlecon h1 {
     float: left;
-    
+
     width: 100%;
 }
 .post-text {
@@ -470,22 +470,22 @@ padding: 0 15px 25px; margin-bottom:25px;
 .title-without, .title-right{ font-size:16px;}
 .info-lt{ width:100%; border-bottom: 3px solid #f0622e;
 overflow:hidden;
-border-right:none; 
+border-right:none;
 padding: 0 15px 25px; margin-bottom:25px;
 }
 
 .title-without {
- 
+
     width: 295px;
 }
 .title-right {
-   
+
     width: 264px;
 }
 .formcon {
- 
+
     padding: 25px 10px;
-    
+
 }
 .info-rt{ width:100%;}
 .info-rt h5{ text-align:center;}
@@ -546,7 +546,7 @@ padding: 0 15px 25px; margin-bottom:25px;
 }
 .checkboxarea label{ font-size:15px;}
 .checkboxarea label input {
-    
+
     margin: 2px 10px 0 0;
     width: auto;
 }
@@ -592,22 +592,22 @@ padding: 0 15px 25px; margin-bottom:25px;
     width: 200px;
 }
 .newsletterAreaLt h2 {
-  
+
     font-size: 26px;
-    
+
 }
 
 .newslettercon input.subscribe {
-   
+
     font-size: 16px;
-    
+
     width: 38%;
 }
 .content-con input{ font-size:14px;}
 .newslettercon input {
-     
+
     font-size: 14px;
-   
+
     width: 58%;
 }
 .newsletterAreaLt {
@@ -746,6 +746,7 @@ padding: 0 15px 25px; margin-bottom:25px;
     float: left;
     margin: 0 auto 10px;
     width: 100%;
+    height: auto;
 }
 .morelink img {
     float: none;
@@ -759,7 +760,7 @@ padding: 0 15px 25px; margin-bottom:25px;
 }
 .titlecon h1 {
     float: left;
-    
+
     width: 100%;
 }
 .post-text {
@@ -792,7 +793,7 @@ padding: 0 15px 25px; margin-bottom:25px;
     top: 55px;
 }
  }
- 
+
 @media (min-width: 290px) and (max-width: 480px) {
   .offcanvas__trigger--open {
     position: absolute;
@@ -804,7 +805,7 @@ padding: 0 15px 25px; margin-bottom:25px;
 .mobile-nav-btn{ display:block; text-align:right; position:relative; z-index:9999999; padding:0 15px 0 0}
 .mobile-nav-btn button{ margin:10px 2px 0; padding:0; z-index:99999999;}
 .boxarea{ display:none;}
- 
+
 header{ overflow:inherit;}
 
 .infort-r ul li { display:block; float:left; list-style:none; width:50%; text-align:center;}
@@ -817,7 +818,7 @@ header{ overflow:inherit;}
     clear: both;
     overflow: hidden;
     padding: 20px 0 20px;
-    
+
 }
 #my-navigation .box-con{ width:100%; clear:both; padding:10px; margin:0;}
 #my-navigation .box-con .icon-con{ float:left; clear:none; margin:0 20px 0 0; width:auto;}
