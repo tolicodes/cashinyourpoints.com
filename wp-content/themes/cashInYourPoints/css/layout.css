@@ -175,9 +175,7 @@ footer{ width:100%; clear:both; overflow:hidden; padding:30px 0; background:#fff
 
 .date-con h3::first-line{font-size:40px; display:block; clear:both;}
 .titlecon h1 {
-    float: left;
     margin: 13px 0;
-    width: 500px;
 }
 .titlecon h1 a{ color:#fff; font-size:42px; font-weight:bold; padding:5px 15px; display:block; text-decoration:none;}
 
@@ -210,9 +208,9 @@ footer{ width:100%; clear:both; overflow:hidden; padding:30px 0; background:#fff
 .rightside ul li:hover a{ color:#df622e;}
 .right-side-add{ width:100%; background:#e2e2e2; text-align:center; margin:35px auto;}
 
-.postcon  .titlecon{ width:100%; clear:both; overflow:hidden; background:none;}
+.postcon .titlecon { width:100%; clear:both; overflow:hidden; background:none;}
 
-.postcon  .titlecon h1  { font-family: "Poppins",sans-serif;color:#df622e; font-weight:bold; padding:5px 15px; display:block; text-decoration:none; text-transform:uppercase;}
+.postcon .titlecon h1 { font-family: "Poppins",sans-serif;color:#df622e; font-weight:bold; padding:5px 15px; display:block; text-decoration:none; text-transform:uppercase;}
 .singlepostcon .post-text {
     float: left;
     padding: 48px 0 0;
