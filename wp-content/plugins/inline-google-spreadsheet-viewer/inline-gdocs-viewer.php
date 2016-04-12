@@ -30,7 +30,7 @@ if (!defined('ABSPATH')) { exit; } // Disallow direct HTTP access.
 class InlineGoogleSpreadsheetViewerPlugin {
 
     private $shortcode = 'gdoc';
-    private $dt_class = 'igsv-table'; //< Default table class.
+    private $dt_class = 'igsv-table table table-striped'; //< Default table class.
     private $dt_defaults; //< Defaults for DataTables defaults object.
     private $invocations = 0;
     private $prefix; //< Internal prefix for settings, etc., derived from shortcode.
@@ -472,7 +472,7 @@ class InlineGoogleSpreadsheetViewerPlugin {
         $id = (0 === $this->invocations)
             ? 'igsv-' . $this->getDocId($options['key'])
             : "igsv-{$this->invocations}-" . $this->getDocId($options['key']);
-        $html  = '<table id="' . esc_attr($id) . '"';
+        $html  = '<div class="table-wrapper"><table id="' . esc_attr($id) . '"';
         // Prepend a space character onto the 'class' value, if one exists.
         if (!empty($options['class'])) { $options['class'] = " {$options['class']}"; }
         $html .= ' class="' . $this->dt_class . esc_attr($options['class']) . '"';
@@ -515,7 +515,7 @@ class InlineGoogleSpreadsheetViewerPlugin {
             }
             $html .= "</tr>";
         }
-        $html .= '</tbody></table>';
+        $html .= '</tbody></table></div>';
 
         $html = apply_filters($this->shortcode . '_table_html', $html);
 
