@@ -12,7 +12,7 @@
  */
 
 get_header(subpage); ?>
- 
+
   <section class="boxarea mainmenu">
     <div class="container">
 		<div class="row">
@@ -45,19 +45,19 @@ get_header(subpage); ?>
     <section class="banner-area">
     	<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/blog-bg.png" width="100%">
     </section>
-    
-     
+
+
     <section class="blog-content-area">
     	<div class="container">
         	<div class="row">
             	<div class="col-lg-9 col-sm-9 col-md-9 leftSide">
-               	   
+
                    <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <h2> <?php the_title(); ?></h2>
                       <?php the_content(); ?>
                    <?php endwhile; endif; ?>
                 </div>
-                
+
                 <div class="col-lg-3 col-sm-3 col-md-3 rightSide">
                 	<div class="rightside">
                     	<ul>
@@ -68,7 +68,7 @@ get_header(subpage); ?>
                         	<li><a href="<?php echo get_option_tree( 'financial_news' ); ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/fight-icon-5.png" width="40"> Financial News</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="right-side-add">
                     	<a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/right-banner.png" width="200"></a>
                     </div>
@@ -76,5 +76,7 @@ get_header(subpage); ?>
             </div>
         </div>
     </section>
-     
-  <?php get_footer(); ?>  
+
+    <?php echo do_shortcode('[fbcomments]'); ?>
+
+    <?php get_footer(); ?>  
