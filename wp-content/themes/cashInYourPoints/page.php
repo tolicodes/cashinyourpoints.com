@@ -77,6 +77,6 @@ get_header(subpage); ?>
         </div>
     </section>
 
-    <?php echo do_shortcode('[fbcomments]'); ?>
+    <?php echo do_shortcode('[fbcomments width="100%"]'); ?>
 
-    <?php get_footer(); ?>  
+    <?php get_footer(); ?>
